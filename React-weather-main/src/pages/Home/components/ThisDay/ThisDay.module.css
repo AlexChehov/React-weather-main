@@ -1,0 +1,53 @@
+:root {
+  --body-background-dark: #0d1117;
+  --body-background-light: #fff;
+  --body-background-default: var(--body-background-light);
+  --components-background-dark: #4f4f4f;
+  --components-background-light: #fff;
+  --components-background-default: var(--components-background-light);
+  --card-background-dark: #2e3035;
+  --card-background-light: rgba(71, 147, 255, 0.2);
+  --card-background-default: var(--card-background-light);
+  --card-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
+  --card-shadow-light: 0px 3px 20px rgba(147, 144, 144, 0.28);
+  --card-shadow-default: var(--card-shadow-light);
+  --text-color-dark: #fff;
+  --text-color-light: #000;
+  --text-color-default: var(--text-color-light);
+}
+
+.this__day {
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background: var(--components-background-default);
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  border-radius: 20px;
+}
+
+.top__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.top__block svg {
+  width: 119px;
+  height: 119px;
+}
+.top__block .this__temp {
+  font-size: 96px;
+  font-weight: 500;
+  color: #4793ff;
+}
+.top__block .this__day_name {
+  font-size: 40px;
+  color: var(--text-color-default);
+}
+
+.bottom__block .this__time,
+.bottom__block .this__city {
+  color: #939cb0;
+  font-size: 25px;
+}/*# sourceMappingURL=ThisDay.module.css.map */
